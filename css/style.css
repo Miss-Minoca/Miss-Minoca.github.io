@@ -6,7 +6,7 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    background-color: rgba(0, 255, 255, 0.062);
+    background-color: #f5ecdbc4;
     height: 3rem;
     position: fixed;
     left: 0;
@@ -63,6 +63,11 @@
 
 
 /* services section */
+
+.main section {
+    overflow: hidden;
+}
+
 .services-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -70,9 +75,10 @@
     grid-column-gap: 26px;
     grid-row-gap: 0px;
 
-    padding-top: 70px;
+    padding-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 3rem;
 }
 
 .service {
@@ -81,15 +87,29 @@
 
 .material-icons {
     padding-bottom: 8%;
+    padding-left: 130px;
 }
 
 .service h4 {
     padding-bottom: 2rem;
+    padding-left: 100px;
+    font-family: sans-serif;
 }
 
 .service p {
     padding: 2rem;
+    font-family: sans-serif;
 }
+
+/* About section */
+/* .about {
+    background-image: url(./);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no repeat;
+} */
+
+
 
 /* portfolio section  */
 
@@ -100,3 +120,66 @@
     grid-column-gap: 15px;
     grid-row-gap: 15px;
 } */
+
+
+
+/* testimonial section  */
+
+.testimonial-section {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.testimonial-section h2 {
+    padding-bottom: 30px;
+    padding-top: 5rem;
+    padding-left: 50%;
+    font-family: sans-serif;
+}
+
+.testimonial {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0;
+}
+
+.test-div {
+    background-color: #F5ECDB;
+    align-content: center;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+    border-radius: 15%;
+}
+
+.test-div h4 {
+    padding-left: 3rem;
+    color: #F26200;
+    font-family: sans-serif;
+}
+
+.test-div h5 {
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    color: rgb(65, 64, 64);
+    font-family: sans-serif;
+}
+
+.test-div p {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(65, 64, 64);
+    font-family: sans-serif;
+}
+
+
+/* Blog Section-- */
+.blog-sect {
+    margin-top: 5rem;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 2rem;
+    background-color: #F5ECDB;
+}
