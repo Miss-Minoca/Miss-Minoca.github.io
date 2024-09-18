@@ -103,10 +103,11 @@
 
 /* About section */
 /* .about {
-    background-image: url(./);
+    background-image: url(assets/images/img1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no repeat;
+    height: 7vh;
 } */
 
 
@@ -182,4 +183,21 @@
     padding-right: 50px;
     padding-top: 2rem;
     background-color: #F5ECDB;
+}
+
+/* .blog-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+
+} */
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-img img {
+    width: 50%;
 }
