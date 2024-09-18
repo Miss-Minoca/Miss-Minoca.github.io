@@ -75,6 +75,28 @@
     padding-right: 30px;
 }
 
+.service {
+    align-items: center;
+}
+
 .material-icons {
     padding-bottom: 8%;
 }
+
+.service h4 {
+    padding-bottom: 2rem;
+}
+
+.service p {
+    padding: 2rem;
+}
+
+/* portfolio section  */
+
+/* .portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+} */
