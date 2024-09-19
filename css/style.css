@@ -6,12 +6,26 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    background-color: #f5ecdbc4;
+    background-color: #f5ecdb28;
     height: 3rem;
     position: fixed;
     left: 0;
     right: 0;
+    padding-top: 15px;
 
+}
+
+.navbar h4 {
+    color: #F26200;
+    padding: 5px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: -15px;
 }
 
 /* .nav-items{} */
@@ -30,6 +44,10 @@
     text-decoration: none;
     color: black;
     font-family: sans-serif;
+}
+
+.nav-list :hover {
+    color: #F26200;
 }
 
 .btn {
@@ -59,6 +77,18 @@
 .hero h1 {
     color: #F26200;
     font-family: cursive;
+}
+
+.image-z {
+    width: 100%;
+}
+
+.image-z img {
+    width: 40%;
+    height: 550px;
+    margin-top: -350px;
+    margin-left: 700px;
+    border-radius: 10%;
 }
 
 
@@ -102,34 +132,85 @@
 }
 
 /* About section */
-.about {
+.hire {
     background-image: url(../assets/images/aboutimg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no repeat;
     background-size: cover;
     height: 50vh;
+    /* filter: blur(1px); */
 }
 
+.hire h2 {
+    color: brown;
+    font-family: cursive;
+    margin-left: 57%;
+    margin-top: 40px;
+    padding: 20px;
+}
 
+.hire button {
+    margin-left: 60%;
+    margin-top: 10px;
+
+    background-color: #f26100ab;
+    border: none;
+    height: 50px;
+    width: 80px;
+    border-radius: 15%;
+}
+
+.hire a {
+    text-decoration: none;
+    color: white;
+}
 
 /* portfolio section  */
 
-/* .portfolio {
+.folio {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.portfolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-} */
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
+.folio h2 {
+    font-family: sans-serif;
+    padding-left: 50px;
+}
+
+.portfolio-images {
+    width: 100%;
+}
+
+.portfolio-images img {
+    width: 100%;
+}
 
 /* testimonial section  */
 
 .testimonial-section {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 3rem;
 }
 
 .testimonial-section h2 {
@@ -156,13 +237,13 @@
 }
 
 .test-div h4 {
-    padding-left: 3rem;
+    padding-left: 6rem;
     color: #F26200;
     font-family: sans-serif;
 }
 
 .test-div h5 {
-    padding-left: 3rem;
+    padding-left: 6rem;
     padding-bottom: 2rem;
     color: rgb(65, 64, 64);
     font-family: sans-serif;
@@ -184,6 +265,7 @@
     padding-right: 50px;
     padding-top: 2rem;
     background-color: #F5ECDB;
+    padding-bottom: 30px;
 }
 
 .blog-sect h3 {
@@ -207,7 +289,7 @@
     grid-row-gap: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 2rem;
+    margin-bottom: 10rem;
 }
 
 .blog-img {
@@ -221,6 +303,7 @@
     padding-bottom: 1rem;
 }
 
+
 .blog-img a {
     text-decoration: none;
     color: black;
@@ -231,7 +314,50 @@
     padding-bottom: 3rem;
 }
 
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+
+/* brand section */
+
+.brand-sect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
+
 /* footer section  */
+
+.footer {
+    background-color: #F5ECDB;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+}
+
+.image-area {
+    width: 50%;
+}
+
+.image-area img {
+    width: 40%;
+    border-radius: 50%;
+    /* margin-top: 30px; */
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+/* .image-sect h4{
+    list-style: none;
+} */
 
 .footer-links {
     display: grid;
@@ -239,4 +365,26 @@
     grid-template-rows: 1fr;
     grid-column-gap: 40px;
     grid-row-gap: 0px;
+
+    align-items: center;
+    padding-left: 5rem;
+}
+
+.foot-link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 3rem;
+}
+
+.soci img {
+    width: 20px;
 }
