@@ -479,7 +479,7 @@
 .blog-img img {
     width: 60%;
     height: 70%;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-bottom: 1rem;
 }
 
@@ -491,6 +491,7 @@
 
 .blog-img h5 {
     padding-bottom: 3rem;
+    margin-left: 90px;
 }
 
 .avtr {
@@ -498,7 +499,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    /* margin-left: 4px; */
+    margin-right: 10px;
 }
 
 
