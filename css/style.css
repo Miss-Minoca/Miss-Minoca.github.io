@@ -72,6 +72,8 @@
 
 .hero h4 {
     font-family: sans-serif;
+    /* animation-direction: alternate-reverse;
+    animation-duration: 3s; */
 }
 
 .hero h1 {
@@ -84,8 +86,8 @@
 }
 
 .image-z img {
-    width: 40%;
-    height: 550px;
+    width: 35%;
+    height: 600px;
     margin-top: -350px;
     margin-left: 700px;
     border-radius: 10%;
@@ -131,7 +133,43 @@
     font-family: sans-serif;
 }
 
+
 /* About section */
+.about-sect{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+
+padding-left: 8rem;
+padding-right: 5rem;
+padding-top: 6rem;
+padding-bottom: 6rem;
+}
+
+.about-sect h2{
+    padding-bottom: 2rem;
+    color: #F26200;
+    font-family: sans-serif;
+    padding-left: 3rem;
+}
+.about-sect p{
+    align-content: center;
+    padding: 3rem;
+    color: rgb(87, 87, 87);
+    font-family: sans-serif;
+}
+.about-image{
+    width: 100%;
+}
+
+.about-image img{
+    width: 30%;
+    border-radius: 5%;
+}
+
+/* Hire section */
 .hire {
     background-image: url(../assets/images/aboutimg.jpg);
     background-attachment: fixed;
@@ -145,7 +183,7 @@
 .hire h2 {
     color: brown;
     font-family: cursive;
-    margin-left: 57%;
+    margin-left: 59%;
     margin-top: 40px;
     padding: 20px;
 }
@@ -157,8 +195,8 @@
     background-color: #f26100ab;
     border: none;
     height: 50px;
-    width: 80px;
-    border-radius: 15%;
+    width: 100px;
+    border-radius: 20%;
 }
 
 .hire a {
@@ -299,7 +337,7 @@
 .blog-img img {
     width: 60%;
     height: 70%;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-bottom: 1rem;
 }
 
@@ -310,16 +348,15 @@
 }
 
 .blog-img h5 {
-    padding-left: 60px;
     padding-bottom: 3rem;
 }
 
-.avatar {
+.avtr {
     vertical-align: middle;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-left: 5px;
+    /* margin-left: 4px; */
 }
 
 
@@ -355,9 +392,15 @@
     justify-content: center;
 }
 
-/* .image-sect h4{
-    list-style: none;
-} */
+.image-sect a {
+    text-decoration: none;
+    color: #F26200;
+    /* padding-bottom: 20px; */
+}
+
+.image-sect p {
+    padding-top: 20px;
+}
 
 .footer-links {
     display: grid;
@@ -376,13 +419,23 @@
     gap: 20px;
 }
 
+.foot-link a {
+    text-decoration: none;
+    color: rgb(67, 66, 66);
+}
+
+.foot-link h5 {
+    color: rgb(86, 85, 85);
+}
+
+/* social section  */
 
 .socials {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    padding-top: 3rem;
+    padding-top: 7rem;
 }
 
 .soci img {
