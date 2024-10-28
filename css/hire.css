@@ -1,0 +1,51 @@
+/* Hire section */
+.hire {
+    background-image: url(../assets/images/aboutimg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    height: 50vh;
+    /* filter: blur(1px); */
+}
+
+.hire h2 {
+    color: brown;
+    font-family: cursive;
+    margin-left: 59%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.hire button {
+    margin-left: 60%;
+    margin-top: 10px;
+
+    background-color: #f26100ab;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+}
+
+.hire a {
+    text-decoration: none;
+    color: white;
+}
+
+/* --------------Media queries---------------------- */
+  /* Mobile devices (up to 576px) */
+  @media (max-width: 576px) {
+    /* styles for mobile screens */
+  }
+  /* Small tablets and large phones (between 576px and 768px) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* styles for small tablets and large phones */
+  }
+  /* Tablets and small laptops (between 768px and 992px) */
+  @media (min-width: 769px) and (max-width: 992px) {
+  }
+  /* Laptops and desktops (between 992px and 1200px) */
+  @media (min-width: 993px) and (max-width: 1280px ){
+
+  }

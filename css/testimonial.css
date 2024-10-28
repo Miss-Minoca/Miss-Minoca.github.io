@@ -1,0 +1,74 @@
+/* testimonial section  */
+
+.testimonial-section {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.testimonial-section h2 {
+    padding-bottom: 30px;
+    padding-top: 5rem;
+    padding-left: 50%;
+    font-family: sans-serif;
+}
+
+.testimonial {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0;
+}
+
+.test-div {
+    background-color: #F5ECDB;
+    align-content: center;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+    border-radius: 15%;
+}
+
+.test-div h4 {
+    padding-left: 6rem;
+    color: #F26200;
+    font-family: sans-serif;
+}
+
+.test-div h5 {
+    padding-left: 6rem;
+    padding-bottom: 2rem;
+    color: rgb(65, 64, 64);
+    font-family: sans-serif;
+}
+
+.test-div p {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(65, 64, 64);
+    font-family: sans-serif;
+}
+
+/* --------------Media queries---------------------- */
+  /* Mobile devices (up to 576px) */
+  @media (max-width: 576px) {
+    /* styles for mobile screens */
+  }
+  /* Small tablets and large phones (between 576px and 768px) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* styles for small tablets and large phones */
+  }
+  /* Tablets and small laptops (between 768px and 992px) */
+  @media (min-width: 769px) and (max-width: 992px) {
+  }
+  /* Laptops and desktops (between 992px and 1200px) */
+  @media (min-width: 993px) and (max-width: 1280px ){
+
+  }

@@ -1,0 +1,48 @@
+/* portfolio section  */
+
+.folio {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.folio h2 {
+    font-family: sans-serif;
+    padding-left: 50px;
+}
+
+.portfolio-images {
+    width: 100%;
+}
+
+.portfolio-images img {
+    width: 100%;
+}
+
+/* --------------Media queries---------------------- */
+  /* Mobile devices (up to 576px) */
+  @media (max-width: 576px) {
+    /* styles for mobile screens */
+  }
+  /* Small tablets and large phones (between 576px and 768px) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* styles for small tablets and large phones */
+  }
+  /* Tablets and small laptops (between 768px and 992px) */
+  @media (min-width: 769px) and (max-width: 992px) {
+  }
+  /* Laptops and desktops (between 992px and 1200px) */
+  @media (min-width: 993px) and (max-width: 1280px ){
+
+  }

@@ -1,0 +1,53 @@
+/* About section */
+.about-sect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+
+    padding-left: 8rem;
+    padding-right: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.about-sect h2 {
+    padding-bottom: 2rem;
+    color: #F26200;
+    font-family: sans-serif;
+    padding-left: 3rem;
+}
+
+.about-sect p {
+    align-content: center;
+    padding: 3rem;
+    color: rgb(87, 87, 87);
+    font-family: sans-serif;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.about-image img {
+    width: 30%;
+    border-radius: 5%;
+}
+
+/* --------------Media queries---------------------- */
+  /* Mobile devices (up to 576px) */
+  @media (max-width: 576px) {
+    /* styles for mobile screens */
+  }
+  /* Small tablets and large phones (between 576px and 768px) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* styles for small tablets and large phones */
+  }
+  /* Tablets and small laptops (between 768px and 992px) */
+  @media (min-width: 769px) and (max-width: 992px) {
+  }
+  /* Laptops and desktops (between 992px and 1200px) */
+  @media (min-width: 993px) and (max-width: 1280px ){
+
+  }

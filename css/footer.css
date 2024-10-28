@@ -1,0 +1,103 @@
+
+/* brand section */
+
+.brand-sect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
+
+/* footer section  */
+
+.footer {
+    background-color: #F5ECDB;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+}
+
+.image-area {
+    width: 50%;
+}
+
+.image-area img {
+    width: 40%;
+    border-radius: 50%;
+    /* margin-top: 30px; */
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.image-sect a {
+    text-decoration: none;
+    color: #F26200;
+    /* padding-bottom: 20px; */
+}
+
+.image-sect p {
+    padding-top: 20px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+
+    align-items: center;
+    padding-left: 5rem;
+}
+
+.foot-link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot-link a {
+    text-decoration: none;
+    color: rgb(67, 66, 66);
+}
+
+.foot-link h5 {
+    color: rgb(86, 85, 85);
+}
+
+.foot-link :hover {
+    color: #F26200;
+}
+
+/* social section  */
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 7rem;
+}
+
+.soci img {
+    width: 20px;
+}
+
+/* --------------Media queries---------------------- */
+  /* Mobile devices (up to 576px) */
+  @media (max-width: 576px) {
+    /* styles for mobile screens */
+  }
+  /* Small tablets and large phones (between 576px and 768px) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* styles for small tablets and large phones */
+  }
+  /* Tablets and small laptops (between 768px and 992px) */
+  @media (min-width: 769px) and (max-width: 992px) {
+  }
+  /* Laptops and desktops (between 992px and 1200px) */
+  @media (min-width: 993px) and (max-width: 1280px ){
+
+  }

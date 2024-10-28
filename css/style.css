@@ -61,6 +61,7 @@
 }
 
 /* background image or color and content */
+
 .hero {
     background-color: #F5ECDB;
     padding-top: 12rem;
@@ -231,360 +232,31 @@
 }
 
 
-
-
-
-/* services section */
-
-.main section {
-    overflow: hidden;
-}
-
-.services-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 26px;
-    grid-row-gap: 0px;
-
-    padding-top: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 3rem;
-}
-
-.service {
-    align-items: center;
-}
-
-.material-icons {
-    padding-bottom: 8%;
-    padding-left: 130px;
-}
-
-.service h4 {
-    padding-bottom: 2rem;
-    padding-left: 100px;
-    font-family: sans-serif;
-}
-
-.service p {
-    padding: 2rem;
-    font-family: sans-serif;
-}
-
-
-/* About section */
-.about-sect {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
-
-    padding-left: 8rem;
-    padding-right: 5rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
-
-.about-sect h2 {
-    padding-bottom: 2rem;
-    color: #F26200;
-    font-family: sans-serif;
-    padding-left: 3rem;
-}
-
-.about-sect p {
-    align-content: center;
-    padding: 3rem;
-    color: rgb(87, 87, 87);
-    font-family: sans-serif;
-}
-
-.about-image {
-    width: 100%;
-}
-
-.about-image img {
-    width: 30%;
-    border-radius: 5%;
-}
-
-/* Hire section */
-.hire {
-    background-image: url(../assets/images/aboutimg.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no repeat;
-    background-size: cover;
-    height: 50vh;
-    /* filter: blur(1px); */
-}
-
-.hire h2 {
-    color: brown;
-    font-family: cursive;
-    margin-left: 59%;
-    margin-top: 40px;
-    padding: 20px;
-}
-
-.hire button {
-    margin-left: 60%;
-    margin-top: 10px;
-
-    background-color: #f26100ab;
-    border: none;
-    height: 50px;
-    width: 100px;
-    border-radius: 20%;
-}
-
-.hire a {
-    text-decoration: none;
-    color: white;
-}
-
-/* portfolio section  */
-
-.folio {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-
-    padding-top: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.folio h2 {
-    font-family: sans-serif;
-    padding-left: 50px;
-}
-
-.portfolio-images {
-    width: 100%;
-}
-
-.portfolio-images img {
-    width: 100%;
-}
-
-/* testimonial section  */
-
-.testimonial-section {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.avatar {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 3rem;
-}
-
-.testimonial-section h2 {
-    padding-bottom: 30px;
-    padding-top: 5rem;
-    padding-left: 50%;
-    font-family: sans-serif;
-}
-
-.testimonial {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 0;
-}
-
-.test-div {
-    background-color: #F5ECDB;
-    align-content: center;
-    padding-bottom: 7rem;
-    padding-top: 7rem;
-    border-radius: 15%;
-}
-
-.test-div h4 {
-    padding-left: 6rem;
-    color: #F26200;
-    font-family: sans-serif;
-}
-
-.test-div h5 {
-    padding-left: 6rem;
-    padding-bottom: 2rem;
-    color: rgb(65, 64, 64);
-    font-family: sans-serif;
-}
-
-.test-div p {
-    padding-left: 50px;
-    padding-right: 50px;
-    color: rgb(65, 64, 64);
-    font-family: sans-serif;
-}
-
-
-/* Blog Section-- */
-.blog-sect {
-    margin-top: 5rem;
-
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 2rem;
-    background-color: #F5ECDB;
-    padding-bottom: 30px;
-}
-
-.blog-sect h3 {
-    font-family: sans-serif;
-    font-weight: bold;
-    padding-bottom: 10px;
-}
-
-.blog-sect p {
-    font-family: sans-serif;
-    color: rgb(93, 92, 92);
-    padding-bottom: 3rem;
-    padding-right: 30rem;
-}
-
-.blog-div {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 10rem;
-}
-
-.blog-img {
-    width: 100%;
-}
-
-.blog-img img {
-    width: 60%;
-    height: 70%;
-    padding-left: 20px;
-    padding-bottom: 1rem;
-}
-
-
-.blog-img a {
-    text-decoration: none;
-    color: black;
-}
-
-.blog-img h5 {
-    padding-bottom: 3rem;
-    margin-left: 90px;
-}
-
-.avtr {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-
-/* brand section */
-
-.brand-sect {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 3rem;
-}
-
-/* footer section  */
-
-.footer {
-    background-color: #F5ECDB;
-    margin-top: 5rem;
-    padding-top: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 5rem;
-}
-
-.image-area {
-    width: 50%;
-}
-
-.image-area img {
-    width: 40%;
-    border-radius: 50%;
-    /* margin-top: 30px; */
-    padding-bottom: 20px;
-    justify-content: center;
-}
-
-.image-sect a {
-    text-decoration: none;
-    color: #F26200;
-    /* padding-bottom: 20px; */
-}
-
-.image-sect p {
-    padding-top: 20px;
-}
-
-.footer-links {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 40px;
-    grid-row-gap: 0px;
-
-    align-items: center;
-    padding-left: 5rem;
-}
-
-.foot-link {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.foot-link a {
-    text-decoration: none;
-    color: rgb(67, 66, 66);
-}
-
-.foot-link h5 {
-    color: rgb(86, 85, 85);
-}
-
-.foot-link :hover {
-    color: #F26200;
-}
-
-/* social section  */
-
-.socials {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    padding-top: 7rem;
-}
-
-.soci img {
-    width: 20px;
-}
+/* Small Devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Example styling for small screens */
+    .container {
+      max-width: 540px;
+    }
+  
+    .text-small {
+      font-size: 1rem;
+    }
+  }
+  
+  /* --------------Media queries---------------------- */
+  /* Mobile devices (up to 576px) */
+  @media (max-width: 576px) {
+    /* styles for mobile screens */
+  }
+  /* Small tablets and large phones (between 576px and 768px) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* styles for small tablets and large phones */
+  }
+  /* Tablets and small laptops (between 768px and 992px) */
+  @media (min-width: 769px) and (max-width: 992px) {
+  }
+  /* Laptops and desktops (between 992px and 1200px) */
+  @media (min-width: 993px) and (max-width: 1280px ){
+
+  }
