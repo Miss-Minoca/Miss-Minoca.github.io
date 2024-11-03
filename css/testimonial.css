@@ -60,6 +60,20 @@
   /* Mobile devices (up to 576px) */
   @media (max-width: 576px) {
     /* styles for mobile screens */
+    .testimonial {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 2%;
+        grid-row-gap: 2%;
+
+        
+    }
+
+    .testimonial-section {
+        padding-right: 100px;
+    }
+
   }
   /* Small tablets and large phones (between 576px and 768px) */
   @media (min-width: 577px) and (max-width: 768px) {

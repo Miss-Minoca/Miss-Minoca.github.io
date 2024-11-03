@@ -39,6 +39,34 @@
   /* Mobile devices (up to 576px) */
   @media (max-width: 576px) {
     /* styles for mobile screens */
+.about-sect{
+  display: flex;
+  flex-direction: row;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5%; */
+
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.about-sect p{
+  font-size: xx-large;
+  justify-items: center;
+  text-align: justify;
+}
+    
+.about-image img{
+width: 1500%;
+margin-top: 60px;
+}
+
+
+
+
+
   }
   /* Small tablets and large phones (between 576px and 768px) */
   @media (min-width: 577px) and (max-width: 768px) {

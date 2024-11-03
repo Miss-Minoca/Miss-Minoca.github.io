@@ -34,6 +34,28 @@
   /* Mobile devices (up to 576px) */
   @media (max-width: 576px) {
     /* styles for mobile screens */
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+  
+      padding-top: 40px;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+
+  .portfolio-images {
+    width: 100%;
+}
+
+.portfolio-images img {
+    width: 100%;
+}
+
+
   }
   /* Small tablets and large phones (between 576px and 768px) */
   @media (min-width: 577px) and (max-width: 768px) {

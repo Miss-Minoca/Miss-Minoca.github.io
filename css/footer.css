@@ -89,6 +89,22 @@
   /* Mobile devices (up to 576px) */
   @media (max-width: 576px) {
     /* styles for mobile screens */
+
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+        /* grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 40px;
+        grid-row-gap: 0px; */
+    
+        align-items: center;
+        /* padding-left: 5rem; */
+    }
+
+
+
+
   }
   /* Small tablets and large phones (between 576px and 768px) */
   @media (min-width: 577px) and (max-width: 768px) {

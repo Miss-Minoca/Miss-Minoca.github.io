@@ -248,6 +248,15 @@
   /* Mobile devices (up to 576px) */
   @media (max-width: 576px) {
     /* styles for mobile screens */
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
   }
   /* Small tablets and large phones (between 576px and 768px) */
   @media (min-width: 577px) and (max-width: 768px) {
