@@ -36,7 +36,7 @@
 }
 
 .nav-list li {
-    padding-inline: 70px;
+    padding-inline: 20px;
     list-style: none;
 }
 
@@ -50,20 +50,11 @@
     color: #F26200;
 }
 
-.btn {
-    border: none;
-}
-
-.btn a {
-    text-decoration: none;
-    color: #F26200;
-    font-family: sans-serif;
-}
 
 /* background image or color and content */
 
 .hero {
-    background-color: #F5ECDB;
+    background-color: #f5ecdb;
     padding-top: 12rem;
     padding-bottom: 12rem;
     padding-left: 10rem;
@@ -88,7 +79,7 @@
 
 .image-z img {
     width: 35%;
-    height: 600px;
+    /* height: 600px; */
     margin-top: -350px;
     margin-left: 700px;
     border-radius: 10%;
@@ -235,9 +226,9 @@
 /* Small Devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     /* Example styling for small screens */
-    .container {
+    /* .container {
       max-width: 540px;
-    }
+    } */
   
     .text-small {
       font-size: 1rem;
